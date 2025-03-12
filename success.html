@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}Success{% endblock %}
+
+{% block content %}
+<div class="alert alert-success">
+    <h4>Thank You, {{ name }}!</h4>
+    <p>Your cleaning service has been booked successfully.</p>
+    <a href="/" class="btn btn-primary">Back to Home</a>
+</div>
+{% endblock %}
